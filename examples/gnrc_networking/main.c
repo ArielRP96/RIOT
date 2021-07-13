@@ -38,7 +38,7 @@ int main(void)
     /* we need a message queue for the thread running the shell in order to
      * receive potentially fast incoming networking packets */
     msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
-    puts("¡Soy Ariel Alexander Rivera Pacheco quiero pertenecer al Hackerspace San Salvador!);
+    puts("¡Soy Ariel Alexander Rivera Pacheco quiero pertenecer al Hackerspace San Salvador!");
     char line_buf[SHELL_DEFAULT_BUFSIZE];
     shell_run(shell_commands, line_buf, SHELL_DEFAULT_BUFSIZE);
 
